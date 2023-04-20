@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="186" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\sajid\OneDrive\Desktop\Alteryx classess data files\Resource - 1\Resource 3\sales_*.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>sales_*.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ORDERNUMBER" size="254" source="File: C:\Users\sajid\OneDrive\Desktop\Alteryx classess data files\Resource - 1\Resource 3\sales_*.csv" type="V_String" />
+            <Field name="QUANTITYORDERED" size="254" source="File: C:\Users\sajid\OneDrive\Desktop\Alteryx classess data files\Resource - 1\Resource 3\sales_*.csv" type="V_String" />
+            <Field name="PRICEEACH" size="254" source="File: C:\Users\sajid\OneDrive\Desktop\Alteryx classess data files\Resource - 1\Resource 3\sales_*.csv" type="V_String" />
+            <Field name="ORDERLINENUMBER" size="254" source="File: C:\Users\sajid\OneDrive\Desktop\Alteryx classess data files\Resource - 1\Resource 3\sales_*.csv" type="V_String" />
+            <Field name="SALES" size="254" source="File: C:\Users\sajid\OneDrive\Desktop\Alteryx classess data files\Resource - 1\Resource 3\sales_*.csv" type="V_String" />
+            <Field name="ORDERDATE" size="254" source="File: C:\Users\sajid\OneDrive\Desktop\Alteryx classess data files\Resource - 1\Resource 3\sales_*.csv" type="V_String" />
+            <Field name="STATUS" size="254" source="File: C:\Users\sajid\OneDrive\Desktop\Alteryx classess data files\Resource - 1\Resource 3\sales_*.csv" type="V_String" />
+            <Field name="QTR_ID" size="254" source="File: C:\Users\sajid\OneDrive\Desktop\Alteryx classess data files\Resource - 1\Resource 3\sales_*.csv" type="V_String" />
+            <Field name="MONTH_ID" size="254" source="File: C:\Users\sajid\OneDrive\Desktop\Alteryx classess data files\Resource - 1\Resource 3\sales_*.csv" type="V_String" />
+            <Field name="YEAR_ID" size="254" source="File: C:\Users\sajid\OneDrive\Desktop\Alteryx classess data files\Resource - 1\Resource 3\sales_*.csv" type="V_String" />
+            <Field name="PRODUCTLINE" size="254" source="File: C:\Users\sajid\OneDrive\Desktop\Alteryx classess data files\Resource - 1\Resource 3\sales_*.csv" type="V_String" />
+            <Field name="MSRP" size="254" source="File: C:\Users\sajid\OneDrive\Desktop\Alteryx classess data files\Resource - 1\Resource 3\sales_*.csv" type="V_String" />
+            <Field name="PRODUCTCODE" size="254" source="File: C:\Users\sajid\OneDrive\Desktop\Alteryx classess data files\Resource - 1\Resource 3\sales_*.csv" type="V_String" />
+            <Field name="CUSTOMERNAME" size="254" source="File: C:\Users\sajid\OneDrive\Desktop\Alteryx classess data files\Resource - 1\Resource 3\sales_*.csv" type="V_String" />
+            <Field name="PHONE" size="254" source="File: C:\Users\sajid\OneDrive\Desktop\Alteryx classess data files\Resource - 1\Resource 3\sales_*.csv" type="V_String" />
+            <Field name="ADDRESSLINE1" size="254" source="File: C:\Users\sajid\OneDrive\Desktop\Alteryx classess data files\Resource - 1\Resource 3\sales_*.csv" type="V_String" />
+            <Field name="ADDRESSLINE2" size="254" source="File: C:\Users\sajid\OneDrive\Desktop\Alteryx classess data files\Resource - 1\Resource 3\sales_*.csv" type="V_String" />
+            <Field name="CITY" size="254" source="File: C:\Users\sajid\OneDrive\Desktop\Alteryx classess data files\Resource - 1\Resource 3\sales_*.csv" type="V_String" />
+            <Field name="STATE" size="254" source="File: C:\Users\sajid\OneDrive\Desktop\Alteryx classess data files\Resource - 1\Resource 3\sales_*.csv" type="V_String" />
+            <Field name="POSTALCODE" size="254" source="File: C:\Users\sajid\OneDrive\Desktop\Alteryx classess data files\Resource - 1\Resource 3\sales_*.csv" type="V_String" />
+            <Field name="COUNTRY" size="254" source="File: C:\Users\sajid\OneDrive\Desktop\Alteryx classess data files\Resource - 1\Resource 3\sales_*.csv" type="V_String" />
+            <Field name="TERRITORY" size="254" source="File: C:\Users\sajid\OneDrive\Desktop\Alteryx classess data files\Resource - 1\Resource 3\sales_*.csv" type="V_String" />
+            <Field name="CONTACTLASTNAME" size="254" source="File: C:\Users\sajid\OneDrive\Desktop\Alteryx classess data files\Resource - 1\Resource 3\sales_*.csv" type="V_String" />
+            <Field name="CONTACTFIRSTNAME" size="254" source="File: C:\Users\sajid\OneDrive\Desktop\Alteryx classess data files\Resource - 1\Resource 3\sales_*.csv" type="V_String" />
+            <Field name="DEALSIZE" size="254" source="File: C:\Users\sajid\OneDrive\Desktop\Alteryx classess data files\Resource - 1\Resource 3\sales_*.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\sajid\AppData\Local\Temp\Engine_4260_fb069c24e73749d6bf1b7abd6cd9bb33_\Engine_22172_71caac0f6b5846a7a9b9a36ae1de34a4_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="318" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\sajid\OneDrive\Desktop\Alteryx classess data files\Resource - 1\Resource 3\Sales_op.xlsx|||Allyears</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>RemoveFile</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Sales_op.xlsx
+Query=Allyears</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Assignment 3</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="4bee3022-2214-4cc3-8d59-7c8df049e77a" />
+      <Telemetry>
+        <PreviousWorkflowId value="0e77cc46-2fe0-45b4-b278-119b64d4989d" />
+        <OriginWorkflowId value="0e77cc46-2fe0-45b4-b278-119b64d4989d" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
